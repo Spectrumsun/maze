@@ -66,7 +66,6 @@ const App = () => {
   }
 
   return (
-
       <div className="container">
         <h1>Maze</h1>
         <form className="input">

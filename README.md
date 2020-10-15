@@ -5,6 +5,10 @@
 
 In the project directory, you can run:
 
+### Host
+
+https://maze-project.netlify.app/
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />

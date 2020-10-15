@@ -20,7 +20,7 @@ input {
   height: 20px;
   padding: 5px 20px;
   outline: 1px solid transparent;
-  border: 1px solid #a7c53f;
+  border: 1px solid black;
 }
 
 button {
@@ -28,7 +28,7 @@ button {
   padding: 1px;
   text-align: center;
   color: #ffffff;
-  border: 1px solid #a7c53f;
+  border: 1px solid black;
   border-radius: 10px;
   line-height: 2.75em;
   min-width: 9.25em;
