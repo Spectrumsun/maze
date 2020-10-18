@@ -77,7 +77,7 @@ describe('<LApp />', () => {
     expect(wrapper.find('button').length).toEqual(1);
   });
 
-  it('should set the input value on change event with', () => {
+  it('should set the input value on change event with 5', () => {
     wrapper.find('input[name="height"]').simulate('change', {
       preventDefault: jest.fn(),
       target: { name: 'height', value: 5 }
@@ -88,7 +88,7 @@ describe('<LApp />', () => {
   });
 
 
-  it('should set the input value on change event with', () => {
+  it('should set the input value on change event with 6', () => {
     wrapper.find('input[name="height"]').simulate('change', {
       preventDefault: jest.fn(),
       target: { name: 'width', value: 6 }
@@ -115,7 +115,7 @@ describe('<LApp />', () => {
   });
 
 
-  it('should click render maze',  () => {
+  it('should render 25 maze cells',  () => {
     jest.spyOn(document, 'querySelector').mockReturnValueOnce({ 
       style: {
         gridTemplateColumns : 1, 
